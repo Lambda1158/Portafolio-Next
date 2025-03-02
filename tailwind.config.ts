@@ -8,10 +8,16 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'radial-gradient': 'radial-gradient(circle, var(--tw-gradient-stops))',
+      },
+      screens: {
+        celular: { max: '480px' },
+      },
       colors: {
         // Light Mode
         text: '#040316',
-        background: '#fbfbfe',
+        background: '#E2E8F0',
         primary: '#8418dc',
         secondary: '#260529',
         accent: '#7353df',

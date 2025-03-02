@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${josefin_Sans.className} antialiased bg-background dark:bg-dbackground`}>
+      <body className={`${josefin_Sans.className} antialiased`}>
         <Providers>{children}</Providers>
       </body>
     </html>
